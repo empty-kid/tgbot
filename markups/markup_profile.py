@@ -1,0 +1,4 @@
+from telegram import ReplyKeyboardMarkup
+from keyboards.reply_keyboard_profile import reply_keyboard_profile
+
+markup_profile = ReplyKeyboardMarkup(reply_keyboard_profile, one_time_keyboard=False)

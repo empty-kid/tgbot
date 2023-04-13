@@ -1,0 +1,5 @@
+from telegram import ReplyKeyboardMarkup
+
+from keyboards.reply_keyboard_with_choice import reply_keyboard_with_choice
+
+markup_with_choice = ReplyKeyboardMarkup(reply_keyboard_with_choice, one_time_keyboard=False)
