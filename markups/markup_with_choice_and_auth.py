@@ -1,4 +1,0 @@
-from telegram import ReplyKeyboardMarkup
-from keyboards.reply_keyboard_with_choice_and_auth import reply_keyboard_with_choice_and_auth
-
-markup_with_choice_and_auth = ReplyKeyboardMarkup(reply_keyboard_with_choice_and_auth, one_time_keyboard=False)
